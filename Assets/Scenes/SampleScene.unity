@@ -784,12 +784,12 @@ PrefabInstance:
     - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
         type: 3}
       propertyPath: dialogueList.Array.data[2].text.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
         type: 3}
       propertyPath: dialogueList.Array.data[3].text.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
         type: 3}
@@ -824,12 +824,22 @@ PrefabInstance:
     - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
         type: 3}
       propertyPath: dialogueList.Array.data[2].text.Array.data[0]
-      value: uh. then good luck, or whatever. bye.
+      value: thanks! sure hope this works
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.data[1]
+      value: miss how things used to be
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.data[2]
+      value: "hopefully your dream wasn\u2019t like. a normal dream"
       objectReference: {fileID: 0}
     - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
         type: 3}
       propertyPath: dialogueList.Array.data[3].text.Array.data[0]
-      value: thanks! sure hope this works
+      value: that is true!
       objectReference: {fileID: 0}
     - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
         type: 3}
@@ -844,7 +854,7 @@ PrefabInstance:
     - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
         type: 3}
       propertyPath: dialogueList.Array.data[4].text.Array.data[0]
-      value: that is true!
+      value: 'uh. then good luck, or whatever. bye. '
       objectReference: {fileID: 0}
     - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
         type: 3}
@@ -1279,6 +1289,107 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueList.Array.data[9].text.Array.data[0]
       value: yep!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: font
+      value: 
+      objectReference: {fileID: 12800000, guid: e82c318002d393f4c99374863e4a6592,
+        type: 3}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: name
+      value: Mingu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: instrument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[5].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[0]
+      value: what kind of band
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[0]
+      value: uh. okay.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[1]
+      value: and you guys all believe it?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.data[0]
+      value: ah. well wish I could but my bass is all outta tune
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.data[0]
+      value: "oh, that would be great. it\u2019s been ages since I\u2019ve done it"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.data[0]
+      value: "I mean. what could go wrong y\u2019know"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.data[1]
+      value: "either you\u2019re right and things turn around for us"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.data[2]
+      value: "or you\u2019re wrong and I get friends and maybe a band"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[5].text.Array.data[0]
+      value: you sure?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e6558ba8c3972c48866fd9ea03487b1, type: 3}
