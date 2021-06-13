@@ -461,13 +461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: player
   instrument: 0
-  dialogueList:
-  - isQuestion: 0
-    text: []
-  - isQuestion: 0
-    text: []
-  - isQuestion: 0
-    text: []
+  dialogueList: []
   font: {fileID: 12800000, guid: bf76f3b2832c4d24a8d27a3a9601d752, type: 3}
 --- !u!1 &4007868191604046674
 GameObject:

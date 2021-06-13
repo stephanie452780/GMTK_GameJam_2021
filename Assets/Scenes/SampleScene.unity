@@ -745,5 +745,181 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: font
+      value: 
+      objectReference: {fileID: 12800000, guid: 4d87e244621b4ec4691e725a80468200,
+        type: 3}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: name
+      value: Music God
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[9].isQuestion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[5].text.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[6].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[7].text.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[8].text.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[9].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[0]
+      value: PSST. hey
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[0]
+      value: omg it actually worked. wow.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.data[0]
+      value: "I\u2019m in your dream! talking to you. ok now listen"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.data[0]
+      value: "I\u2019m the music god. god of music. now is not important."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.data[1]
+      value: "you know how ur world\u2019s dying right"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.data[0]
+      value: "YEAH well. that\u2019s cuz there isn\u2019t a scientific reason!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[5].text.Array.data[0]
+      value: so like. the other gods that control that kind of stuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[5].text.Array.data[1]
+      value: "you know, nature and all that. they\u2019re kinda mad"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[5].text.Array.data[2]
+      value: we gave u instruments--
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[6].text.Array.data[0]
+      value: yes, well, you guys are using em wrong.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[7].text.Array.data[0]
+      value: "well, as a whole u guys aren\u2019t making ENOUGH music"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[7].text.Array.data[1]
+      value: "which like. c\u2019mon are you even grateful"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[7].text.Array.data[2]
+      value: and secondly most of it sucks
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[7].text.Array.data[3]
+      value: which is where YOU come in
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[8].text.Array.data[0]
+      value: "uh, yes. you see, you\u2019re kind of world renowned"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[8].text.Array.data[1]
+      value: specifically for making the best kind of music
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[8].text.Array.data[2]
+      value: ~JAZZ~
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[8].text.Array.data[3]
+      value: so your quest if you choose to accept it yadda yadda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[8].text.Array.data[4]
+      value: is to bring together a jazz band
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[8].text.Array.data[5]
+      value: and jam out till you appease the gods
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[9].text.Array.data[0]
+      value: yep!
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e6558ba8c3972c48866fd9ea03487b1, type: 3}
