@@ -167,7 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   instrument: 0
-  dialogue: []
+  dialogueList: []
   font: {fileID: 0}
 --- !u!1 &32500602
 GameObject:
@@ -580,7 +580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Elliot
   instrument: 1
-  dialogue: []
+  dialogueList: []
   font: {fileID: 12800000, guid: e839936d0a025bb458a4812a3da6f89e, type: 3}
 --- !u!1 &205986696
 GameObject:
@@ -2260,7 +2260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   instrument: 0
-  dialogue: []
+  dialogueList: []
   font: {fileID: 0}
 --- !u!1 &1084965618
 GameObject:
@@ -2692,28 +2692,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1281726505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02deda1ab83b9d14993ae97df7daf15c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e528e6f22afe8042a2220d5e71d9d37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: music god
+  name: 
   instrument: 0
-  dialogue:
-  - PSST. hey
-  - omg it actually worked. wow.
-  - "I\u2019m in your dream! talking to you. ok now listen"
-  - "I\u2019m the music god. god of music. now is not important. you know how ur
-    world\u2019s dying right "
-  - "YEAH well. that\u2019s cuz there isn\u2019t a scientific reason!"
-  - "so like. the other gods that control that kind of stuff you know, nature and
-    all that. they\u2019re kinda mad we gave u instruments-- "
-  - yes, well, you guys are using em wrong.
-  - "well, as a whole u guys aren\u2019t making ENOUGH music which like. c\u2019mon
-    are you even grateful and secondly most of it sucks which is where YOU come in "
-  - "uh, yes. you see, you\u2019re world renowned specifically for making the best
-    kind of music ~JAZZ~ so your quest if you choose to accept it yadda yadda is
-    to bring together a jazz band  and jam out till you appease the gods "
-  - yep!
-  font: {fileID: 12800000, guid: 873b7f0004737374eba3626cd43fc173, type: 3}
+  dialogueList: []
+  font: {fileID: 0}
 --- !u!1 &1291419035
 GameObject:
   m_ObjectHideFlags: 0
@@ -2971,20 +2956,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: player
   instrument: 0
-  dialogue:
-  - hello?
-  - what worked?
-  - "wait. who are you. how\u2019d you get in here"
-  - "yeah. it sucks I miss the flowers and colors honestly it\u2019s kind of weird
-    cuz like the bees are still here, you know?  like, our top scientists can\u2019t
-    figure out why things are dying "
-  - what?
-  - yes! love instruments, thanks for giving em to us
-  - huh?
-  - woah like some kind of hero?
-  - and then we can have flowers and stuff again?
-  - "heck yes. I\u2019ll see who I can get to join me. shame I don\u2019t already
-    have a band "
+  dialogueList:
+  - isQuestion: 0
+    text: 
+  - isQuestion: 0
+    text: 
+  - isQuestion: 0
+    text: 
   font: {fileID: 12800000, guid: bf76f3b2832c4d24a8d27a3a9601d752, type: 3}
 --- !u!1 &1432344591
 GameObject:
