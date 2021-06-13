@@ -76,7 +76,10 @@ public class DialogueScene : MonoBehaviour
     {
         characterText.text = characterName;
         characterText.font = textFont;
-        dialogueText.text = dialogue.text;
+        for (int i = 0; i < dialogue.text.Count; i++)
+        {
+            dialogueText.text = dialogue.text[i];
+        }
         dialogueText.font = textFont;
         if (dialogue.isQuestion)
         {
