@@ -846,6 +846,107 @@ PrefabInstance:
       propertyPath: dialogueList.Array.data[4].text.Array.data[0]
       value: that is true!
       objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: font
+      value: 
+      objectReference: {fileID: 12800000, guid: e839936d0a025bb458a4812a3da6f89e,
+        type: 3}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: name
+      value: elliot
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: instrument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[0]
+      value: "what\u2019s in it for me"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[0]
+      value: ' I really dunno if I believe that '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[1]
+      value: but
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[2]
+      value: I'll join your band if you pay me
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[3]
+      value: I don't work for free
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.data[0]
+      value: that's it?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.data[0]
+      value: you know what? I'll take it. let's go.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.data[0]
+      value: "dramatic much? I care but like. your story\u2019s far fetched"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.data[1]
+      value: "I don\u2019t really think it\u2019ll work"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.data[2]
+      value: 'so. have a good day. Bye. '
+      objectReference: {fileID: 0}
     - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
         type: 3}
       propertyPath: font
