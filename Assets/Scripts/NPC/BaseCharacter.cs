@@ -16,7 +16,8 @@ public enum Instruments
     Piano,
     Bass,
     Drums,
-    Guitar
+    Guitar,
+    Saxophone
 }
 
 [Serializable]
