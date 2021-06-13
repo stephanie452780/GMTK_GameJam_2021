@@ -1125,13 +1125,18 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
         type: 3}
+      propertyPath: name
+      value: alice
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
       propertyPath: dialogueList.Array.size
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
         type: 3}
       propertyPath: dialogueList.Array.data[0].text.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
         type: 3}
@@ -1140,18 +1145,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
         type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
       propertyPath: dialogueList.Array.data[0].text.Array.data[0]
-      value: jehfkjsfhi
+      value: well. alright
       objectReference: {fileID: 0}
     - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
         type: 3}
       propertyPath: dialogueList.Array.data[0].text.Array.data[1]
-      value: dsaf
+      value: time to give it my best shot, solo
       objectReference: {fileID: 0}
     - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
         type: 3}
       propertyPath: dialogueList.Array.data[0].text.Array.data[2]
       value: dsfa
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[0]
+      value: okay. you guys ready?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.data[0]
+      value: alright, let's go!
       objectReference: {fileID: 0}
     - target: {fileID: 4007868192492324587, guid: 84d14f7f2404c52468d64b5ca8194504,
         type: 3}
