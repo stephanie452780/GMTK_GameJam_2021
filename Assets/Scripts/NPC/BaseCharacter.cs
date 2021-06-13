@@ -24,8 +24,7 @@ public enum Instruments
 public class Dialogue
 {
     public bool isQuestion;
-    [TextArea]
-    public string text;
+    public List<string> text;
 }
 
 public class BaseCharacter : MonoBehaviour
