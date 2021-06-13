@@ -7,7 +7,7 @@ using UnityEngine.UI;
 /*
  * Dialogue Scene Setup
  * Text
- * Change NPC
+ * Change Character
  */
 
 public class DialogueScene : MonoBehaviour
@@ -18,27 +18,24 @@ public class DialogueScene : MonoBehaviour
     public GameObject npc;
     public bool playerTalkFirst;
 
-    private List<string> playerText;
+    private List<Dialogue> playerText;
     private Font playerFont;
     private string npcName;
-    private List<string> npcText;
+    private List<Dialogue> npcText;
     private Font npcFont;
-    private bool continueConvo;
 
     private int playerIndex;
     private int npcIndex;
     private bool playerLastTalk;
-    private int index;
     
     // Start is called before the first frame update
     void Start()
     {
-        playerText = player.GetComponent<BaseNPC>().GetDialogue();
-        playerFont = player.GetComponent<BaseNPC>().GetFont();
-        npcName = npc.GetComponent<BaseNPC>().GetName();
-        npcText = npc.GetComponent<BaseNPC>().GetDialogue();
-        npcFont = npc.GetComponent<BaseNPC>().GetFont();
-        continueConvo = false;
+        playerText = player.GetComponent<Player>().GetDialogue();
+        playerFont = player.GetComponent<Player>().GetFont();
+        npcName = npc.GetComponent<BaseCharacter>().GetName();
+        npcText = npc.GetComponent<BaseCharacter>().GetDialogue();
+        npcFont = npc.GetComponent<BaseCharacter>().GetFont();
         playerIndex = 0;
         npcIndex = 0;
 
@@ -60,55 +57,35 @@ public class DialogueScene : MonoBehaviour
     {
         if (Input.anyKeyDown)
         {
-            print("player index: " + playerIndex);
-            print("npc index: " + npcIndex);
             if (!playerLastTalk && playerIndex < playerText.Count)
             {
                 CharactersTalk("player", playerText[playerIndex], playerFont);
                 playerIndex++;
-                print("player index: " + playerIndex);
                 playerLastTalk = true;
             }
             else if (playerLastTalk && npcIndex < npcText.Count)
             {
                 CharactersTalk(npcName, npcText[npcIndex], npcFont);
                 npcIndex++;
-                print("npc index: " + npcIndex);
                 playerLastTalk = false;
             }
-        }
-            
+        }    
     }
     
-
-    void CharactersTalk(string characterName, string dialogue, Font textFont)
+    void CharactersTalk(string characterName, Dialogue dialogue, Font textFont)
     {
-        //if (!String.IsNullOrEmpty(dialogue))
-        
-            characterText.text = characterName;
+        characterText.text = characterName;
         characterText.font = textFont;
-        print("character name: " + characterName);
-            dialogueText.text = dialogue;
+        dialogueText.text = dialogue.text;
         dialogueText.font = textFont;
-        
-        
-        print("inside charactertalk");
-        
+        if (dialogue.isQuestion)
+        {
+            PlayerReply();
+        }
     }
 
-    IEnumerator ContinueTalk()
+    void PlayerReply()
     {
-        //bool wait = true;
-        //while (wait)
-        //{
-        //    if (Input.anyKeyDown)
-        //    {
-        //        wait = false;
-        //    }
-        //    print(wait);
-        //    yield return new WaitForSeconds(3.0f);
-        //}
-        //yield return new WaitForSeconds(3.0f);
-        yield return new WaitForSeconds(5.0f);
+
     }
 }
