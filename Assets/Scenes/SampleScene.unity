@@ -846,6 +846,82 @@ PrefabInstance:
       propertyPath: dialogueList.Array.data[4].text.Array.data[0]
       value: that is true!
       objectReference: {fileID: 0}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: font
+      value: 
+      objectReference: {fileID: 12800000, guid: 79c75a584ba53624b89c9c49385c2ab9,
+        type: 3}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: name
+      value: blake
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: instrument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[0]
+      value: hi
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[0]
+      value: I would but
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[1]
+      value: I'm very out of practice at the drums
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[2]
+      value: it's been a while
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.data[0]
+      value: are you sure?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187468313764, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.data[0]
+      value: then, sorry. I can't help you.
+      objectReference: {fileID: 0}
     - target: {fileID: 6298013187490828915, guid: 1e6558ba8c3972c48866fd9ea03487b1,
         type: 3}
       propertyPath: font
