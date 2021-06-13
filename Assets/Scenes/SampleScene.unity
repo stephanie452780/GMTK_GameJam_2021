@@ -947,6 +947,87 @@ PrefabInstance:
       propertyPath: dialogueList.Array.data[4].text.Array.data[2]
       value: 'so. have a good day. Bye. '
       objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: font
+      value: 
+      objectReference: {fileID: 12800000, guid: ea56a878766e54e489afd8883090c0d6,
+        type: 3}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: name
+      value: monty
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: instrument
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[0]
+      value: "I\u2019d love to but"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[1]
+      value: 'I really need to finish hanging up my laundry  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[2]
+      value: "can\u2019t let it get wrinkly"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[3]
+      value: "if I don\u2019t look well-kept at my job they could fire me "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[0]
+      value: really?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.data[0]
+      value: yeah of course! thank you!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013188409744260, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.data[0]
+      value: "that\u2019s fine then. good luck. I hope it works."
+      objectReference: {fileID: 0}
     - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
         type: 3}
       propertyPath: font
