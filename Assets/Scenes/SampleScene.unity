@@ -898,6 +898,157 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: name
+      value: alice
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: instrument
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[5].text.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[6].text.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[7].text.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[0]
+      value: hey there wanna join our band
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[0]
+      value: a jazz band!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[1]
+      value: "we\u2019re banding together in the hopes that it will bring the flowers
+        back"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.data[0]
+      value: believe enough!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.data[1]
+      value: could join for the sake of being in a jazz band
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.data[2]
+      value: should be a good time
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.data[0]
+      value: I could give tuning it a go
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.data[0]
+      value: no problem!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.data[1]
+      value: 'thank you so much for joining our cause '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.data[2]
+      value: 'I really appreciate your help '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[5].text.Array.data[0]
+      value: "I\u2019d love to keep being a band if everyone was down "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[5].text.Array.data[1]
+      value: 'jazz is my life!  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[5].text.Array.data[2]
+      value: 'might as well spread the joy to others '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[5].text.Array.data[3]
+      value: "let\u2019s keep it moving. I think we\u2019re almost to the stage "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[6].text.Array.data[0]
+      value: no worries then
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[6].text.Array.data[1]
+      value: we can move on
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[7].text.Array.data[0]
+      value: 'yea! almost to the stage, too '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[7].text.Array.data[1]
+      value: "let\u2019s rock and roll "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[7].text.Array.data[2]
+      value: ...so to speak
+      objectReference: {fileID: 0}
     - target: {fileID: 4007868192492324587, guid: 84d14f7f2404c52468d64b5ca8194504,
         type: 3}
       propertyPath: m_RootOrder
@@ -1904,7 +2055,7 @@ PrefabInstance:
     - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
         type: 3}
       propertyPath: dialogueList.Array.data[1].text.Array.data[1]
-      value: and you guys all believe it?
+      value: and you believe it?
       objectReference: {fileID: 0}
     - target: {fileID: 6298013188512406329, guid: 1e6558ba8c3972c48866fd9ea03487b1,
         type: 3}
