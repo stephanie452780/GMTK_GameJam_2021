@@ -1,19 +1,7 @@
 fileFormatVersion: 2
-guid: 5a91780eff0592e439ac74741b614064
+guid: 0350850b9ee3ff546b18c27149a37eae
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -2373519088323289776
-    second: player_idle_sheet_0
-  - first:
-      213: 3984865761137202466
-    second: player_idle_sheet_1
-  - first:
-      213: -4009713431525891171
-    second: player_idle_sheet_2
-  - first:
-      213: 2246337009395792881
-    second: player_idle_sheet_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,91 +97,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: player_idle_sheet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 280
-        height: 810
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05d91e0f6f09f0fd0800000000000000
-      internalID: -2373519088323289776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_sheet_1
-      rect:
-        serializedVersion: 2
-        x: 280
-        y: 0
-        width: 280
-        height: 810
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 225133a0c461d4730800000000000000
-      internalID: 3984865761137202466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_sheet_2
-      rect:
-        serializedVersion: 2
-        x: 560
-        y: 0
-        width: 280
-        height: 810
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9369ced0e2aa58c0800000000000000
-      internalID: -4009713431525891171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_sheet_3
-      rect:
-        serializedVersion: 2
-        x: 840
-        y: 0
-        width: 280
-        height: 810
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1fb79d2cb979c2f10800000000000000
-      internalID: 2246337009395792881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
