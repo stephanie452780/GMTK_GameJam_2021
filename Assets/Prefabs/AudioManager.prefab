@@ -47,7 +47,16 @@ MonoBehaviour:
   sounds:
   - name: jazzy background
     clip: {fileID: 8300000, guid: edee853df31b71d43b160d0d4ab0a24f, type: 3}
-    volume: 0.45
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 0
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: dream music
+    clip: {fileID: 8300000, guid: e5661bca85b16a34fac58e901db005f1, type: 3}
+    volume: 0.6
     volumeVariance: 0
     pitch: 0
     pitchVariance: 0
