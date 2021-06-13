@@ -128,6 +128,102 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: name
+      value: alice
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: instrument
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[5].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[5].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[6].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[0]
+      value: hey wanna join a jazz band
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[0]
+      value: um. it should bring back the flowers here
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.data[0]
+      value: "I\u2019ve got like. three quarters. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.data[0]
+      value: "I mean I wasn\u2019t going to the store or anything"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.data[1]
+      value: "wasn\u2019t planning to spend money"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.data[0]
+      value: omg thank you!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[5].text.Array.data[0]
+      value: "I can\u2019t afford that. don\u2019t you care about the fate of the
+        world?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[6].text.Array.data[0]
+      value: fine. bye
+      objectReference: {fileID: 0}
     - target: {fileID: 4007868192492324587, guid: 84d14f7f2404c52468d64b5ca8194504,
         type: 3}
       propertyPath: m_RootOrder
