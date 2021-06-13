@@ -745,6 +745,107 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: font
+      value: 
+      objectReference: {fileID: 12800000, guid: 873b7f0004737374eba3626cd43fc173,
+        type: 3}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: name
+      value: davie
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].isQuestion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[0]
+      value: oh. uh
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[1]
+      value: "I guess I\u2019m not doing anything this afternoon "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[2]
+      value: 'could you do me a favor first though '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[0]
+      value: 'so. I dropped my trumpet in a mud puddle  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[1]
+      value: "I\u2019ll help you out if you\u2019d kindly clean it out for me "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.data[0]
+      value: uh. then good luck, or whatever. bye.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.data[0]
+      value: thanks! sure hope this works
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.data[1]
+      value: miss how things used to be
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.data[2]
+      value: "hopefully your dream wasn\u2019t like. a normal dream"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298013187324613545, guid: 1e6558ba8c3972c48866fd9ea03487b1,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.data[0]
+      value: that is true!
+      objectReference: {fileID: 0}
     - target: {fileID: 6298013188470799227, guid: 1e6558ba8c3972c48866fd9ea03487b1,
         type: 3}
       propertyPath: font
