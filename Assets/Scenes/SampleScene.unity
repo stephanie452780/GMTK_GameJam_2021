@@ -499,6 +499,91 @@ PrefabInstance:
       propertyPath: instrument
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].isQuestion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].isQuestion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[0]
+      value: hey so this might sound weird
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[1]
+      value: 'but the god of music came to me in a dream '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[2]
+      value: 'and told me that if I brought together a jazz band  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[3]
+      value: 'and we played well enough '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[0].text.Array.data[4]
+      value: 'the nature gods would give us back flowers and stuff '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[1].text.Array.data[0]
+      value: what is it
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[2].text.Array.data[0]
+      value: sure! give it here.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[3].text.Array.data[0]
+      value: "well. we\u2019ll get a jazz concert out of it if it was"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007868191567065117, guid: 84d14f7f2404c52468d64b5ca8194504,
+        type: 3}
+      propertyPath: dialogueList.Array.data[4].text.Array.data[0]
+      value: ew that sounds gross. no thank you.
+      objectReference: {fileID: 0}
     - target: {fileID: 4007868192492324587, guid: 84d14f7f2404c52468d64b5ca8194504,
         type: 3}
       propertyPath: m_RootOrder
