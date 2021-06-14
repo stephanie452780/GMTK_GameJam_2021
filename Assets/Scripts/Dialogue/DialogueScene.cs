@@ -17,6 +17,7 @@ public class DialogueScene : MonoBehaviour
     public GameObject player;
     public GameObject npc;
     public bool playerTalkFirst;
+    public GameObject sceneObj;
 
     public Canvas replyUI;
     public Text yesText;
@@ -29,6 +30,7 @@ public class DialogueScene : MonoBehaviour
     private string npcName;
     private List<Dialogue> npcText;
     private Font npcFont;
+    private DialogueTransition sceneScript;
 
     private int playerIndex;
     private int npcIndex;
@@ -51,6 +53,7 @@ public class DialogueScene : MonoBehaviour
         npcName = npc.GetComponent<BaseNPC>().GetName();
         npcText = npc.GetComponent<BaseNPC>().GetDialogue();
         npcFont = npc.GetComponent<BaseNPC>().GetFont();
+        sceneScript = sceneObj.GetComponent<DialogueTransition>();
         playerIndex = 0;
         npcIndex = 0;
         multiLine = 1;
@@ -70,8 +73,6 @@ public class DialogueScene : MonoBehaviour
             {
                 multiLine++;
             }
-            print("player talk");
-            //playerIndex++;
         }
         else
         {
@@ -85,8 +86,6 @@ public class DialogueScene : MonoBehaviour
             {
                 multiLine++;
             }
-            print("npc talk");
-            //npcIndex++;
         }
     }
 
@@ -128,8 +127,11 @@ public class DialogueScene : MonoBehaviour
         if (waitingResponse && !startedRoutine)
         {
             StartCoroutine(PlayerResponse());
-            print("waiting");
             startedRoutine = true;
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            sceneScript.SceneTransition(8);
         }
     }
     
@@ -138,15 +140,12 @@ public class DialogueScene : MonoBehaviour
         if (dialogue.isQuestion && characterName == playerName)
         {
             stopTalk = true;
-            print("stop talk");
             return;
         }
         characterText.text = characterName;
         characterText.font = textFont;
         dialogueText.text = dialogue.text[lineNum];
         dialogueText.font = textFont;
-        print("dialogue count: " + dialogue.text.Count);
-        print("line num: " + lineNum);
         if (dialogue.isQuestion && characterName == npcName && lineNum == dialogue.text.Count - 1)
         {
             waitingResponse = true;
@@ -174,7 +173,6 @@ public class DialogueScene : MonoBehaviour
         playerLastTalk = true;
         waitingResponse = false;
         replyUI.enabled = false;
-        print("yes");
     }
 
     //lineIndex = starting line to continue player and npc dialogue
@@ -182,7 +180,6 @@ public class DialogueScene : MonoBehaviour
     {
         playerIndex = int.Parse(playerNPCLineIndex.Substring(0,1));
         npcIndex = int.Parse(playerNPCLineIndex.Substring(1,1));
-        print("player index: " + playerIndex);
 
         characterText.text = playerName;
         characterText.font = playerFont;
@@ -193,6 +190,5 @@ public class DialogueScene : MonoBehaviour
         playerLastTalk = true;
         waitingResponse = false;
         replyUI.enabled = false;
-        print("no");
     }
 }
