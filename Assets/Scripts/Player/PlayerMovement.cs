@@ -16,13 +16,13 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         animator.SetFloat("Speed", Mathf.Abs(currentSpeed));
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime);
             transform.GetComponent<SpriteRenderer>().flipX = true;
             currentSpeed = speed;
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
             transform.GetComponent<SpriteRenderer>().flipX = false;
